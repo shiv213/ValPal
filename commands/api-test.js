@@ -4,7 +4,6 @@ module.exports = {
     name: 'api-test',
     description: 'Checks to see if the connection to the Riot Games API is working.',
     aliases: ['api-check', 'apitest'],
-    usage: '[command name]',
     cooldown: 30,
     execute(message, args) {
         request(`https://na.api.riotgames.com/val/content/v1/contents?locale=en-US&api_key=${val_apikey}`, { json: true }, (err, res, body) => {
