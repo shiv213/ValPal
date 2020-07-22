@@ -81,4 +81,5 @@ client.on('message', message => {
 
 });
 
-client.login(process.env.TOKEN).catch(err => console.log(err));
+// client.login(process.env.TOKEN).catch(err => console.log(err));
+client.login(token).catch(err => console.log(err));

@@ -1,6 +1,9 @@
 # config file
 config.json
 
+# jetbrains
+.idea/
+
 # Logs
 logs
 *.log

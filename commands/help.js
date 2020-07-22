@@ -12,20 +12,20 @@ module.exports = {
             "url": "https://github.com/shiv213/ValPal",
             "color": 12995298,
             "footer": {
-                "icon_url": "https://i.imgur.com/xk78Oek.png",
+                "icon_url": "https://i.imgur.com/VN3lXRw.jpeg",
                 "text": "Currently serving " + `${message.client.guilds.cache.size}` + " servers"
             },
             "thumbnail": {
-                "url": "https://i.imgur.com/xk78Oek.png"
+                "url": "https://i.imgur.com/VN3lXRw.jpeg"
             },
             "author": {
-                "name": "CraftyBot",
-                "url": "https://discordapp.com/oauth2/authorize?client_id=459064720985554945&scope=bot",
-                "icon_url": "https://i.imgur.com/xk78Oek.png"
+                "name": "ValPal",
+                "url": "https://discord.com/api/oauth2/authorize?client_id=735363879235747920&permissions=0&scope=bot",
+                "icon_url": "https://i.imgur.com/VN3lXRw.jpeg"
             },
             "fields": [{
                 "name": ":revolving_hearts: Made with love by @shiv213#7699",
-                "value": "CraftyBot © 2020"
+                "value": "ValPal#5210 © 2020"
             }
             ]
         };
