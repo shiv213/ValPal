@@ -4,9 +4,10 @@
   "description": "Discord bot for Valorant stats",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js test",
+    "start": "node index.js"
   },
-  "author": "",
+  "author": "Shiv Trivedi",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^12.2.0",

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31dd6332-4382-4c2e-af72-0b0dde54c2bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/commands/role.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/api-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/api-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.17.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/commands" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,6 +60,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\shivv\Nextcloud\Documents\GitHub\ValPal" />
       <recent name="C:\Users\shivv\Nextcloud\Documents\GitHub\ValPal\commands" />
     </key>
   </component>
@@ -90,7 +91,11 @@
       <workItem from="1595395187712" duration="6167000" />
       <workItem from="1595430240034" duration="5830000" />
       <workItem from="1595457188942" duration="53000" />
-      <workItem from="1595458123551" duration="1994000" />
+      <workItem from="1595458123551" duration="2267000" />
+      <workItem from="1595468085122" duration="769000" />
+      <workItem from="1595472066848" duration="1193000" />
+      <workItem from="1595524396782" duration="178000" />
+      <workItem from="1595524591604" duration="262000" />
     </task>
     <task id="LOCAL-00001" summary="fixed usage for apitest">
       <created>1595435003957</created>
@@ -99,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595435003957</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added role command">
+      <created>1595460160582</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595460160582</updated>
+    </task>
+    <task id="LOCAL-00003" summary="heroku">
+      <created>1595524650125</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595524650125</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,37 +126,43 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed usage for apitest" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed usage for apitest" />
+    <MESSAGE value="added role command" />
+    <MESSAGE value="heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="heroku" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1267" y="-885" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595397950781">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
     <state x="1267" y="-885" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595397950781" />
-    <state x="1436" y="-1063" key="CommitChangelistDialog2" timestamp="1595435003446">
+    <state x="1578" y="-742" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595524529630">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="1436" y="-1063" key="CommitChangelistDialog2/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595435003446" />
+    <state x="1578" y="-742" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595524529630" />
+    <state x="1322" y="-1070" width="753" height="1021" key="CommitChangelistDialog2" timestamp="1595524649468">
+      <screen x="853" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="1322" y="-1070" width="753" height="1021" key="CommitChangelistDialog2/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595524649468" />
     <state x="1331" y="-847" key="FileChooserDialogImpl" timestamp="1595397946683">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
     <state x="1331" y="-847" key="FileChooserDialogImpl/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595397946683" />
-    <state width="1882" height="476" key="GridCell.Tab.0.bottom" timestamp="1595460077841">
+    <state width="1899" height="307" key="GridCell.Tab.0.bottom" timestamp="1595468861369">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1882" height="476" key="GridCell.Tab.0.bottom/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595460077841" />
-    <state width="1882" height="476" key="GridCell.Tab.0.center" timestamp="1595460077841">
+    <state width="1899" height="307" key="GridCell.Tab.0.bottom/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595468861369" />
+    <state width="1899" height="307" key="GridCell.Tab.0.center" timestamp="1595468861369">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1882" height="476" key="GridCell.Tab.0.center/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595460077841" />
-    <state width="1882" height="476" key="GridCell.Tab.0.left" timestamp="1595460077841">
+    <state width="1899" height="307" key="GridCell.Tab.0.center/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595468861369" />
+    <state width="1899" height="307" key="GridCell.Tab.0.left" timestamp="1595468861369">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1882" height="476" key="GridCell.Tab.0.left/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595460077841" />
-    <state width="1882" height="476" key="GridCell.Tab.0.right" timestamp="1595460077841">
+    <state width="1899" height="307" key="GridCell.Tab.0.left/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595468861369" />
+    <state width="1899" height="307" key="GridCell.Tab.0.right" timestamp="1595468861369">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1882" height="476" key="GridCell.Tab.0.right/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595460077841" />
+    <state width="1899" height="307" key="GridCell.Tab.0.right/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595468861369" />
     <state width="1899" height="356" key="GridCell.Tab.1.bottom" timestamp="1595443562030">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
@@ -190,10 +215,10 @@
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
     <state x="1073" y="-1080" key="SettingsEditor/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595395395690" />
-    <state x="1405" y="-811" key="Vcs.Push.Dialog.v2" timestamp="1595435008148">
+    <state x="1405" y="-811" key="Vcs.Push.Dialog.v2" timestamp="1595524655300">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="1405" y="-811" key="Vcs.Push.Dialog.v2/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595435008148" />
+    <state x="1405" y="-811" key="Vcs.Push.Dialog.v2/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595524655300" />
     <state x="1530" y="-732" key="jetbrains.nodejs.interpreters-dialog" timestamp="1595397924376">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
