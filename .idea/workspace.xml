@@ -2,8 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31dd6332-4382-4c2e-af72-0b0dde54c2bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/commands/agents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Breach/Breach-Deutsch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Breach/Breach-Englisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Breach/Breach-Französisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Breach/Breach-Japanisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Breach/Breach-Portugisisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Brimstone/Brimstone-Deutsch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Brimstone/Brimstone-Englisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Brimstone/Brimstone-Französisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Brimstone/Brimstone-Japanisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Brimstone/Brimstone-Portugisisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Cypher/Cypher-Deutsch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Cypher/Cypher-Englisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Cypher/Cypher-Französisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Cypher/Cypher-Japanisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Cypher/Cypher-Portugisisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Jett/Jett-Deutsch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Jett/Jett-Englisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Jett/Jett-Französisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Jett/Jett-Japanisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Jett/Jett-Portugisisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Omen/Omen-Deutsch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Omen/Omen-Englisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Omen/Omen-Französisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Omen/Omen-Japanisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Omen/Omen-Portugisisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Pheonix/Pheonix-Deutsch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Pheonix/Pheonix-Englisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Pheonix/Pheonix-Französisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Pheonix/Pheonix-Japanisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Pheonix/Pheonix-Portugisisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Raze/Raze-Deutsch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Raze/Raze-Englisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Raze/Raze-Französisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Raze/Raze-Japanisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Raze/Raze-Portugisisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Reyna/Reyna-Deutsch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Reyna/Reyna-Englisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Reyna/Reyna-Französisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Reyna/Reyna-Japanisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Reyna/Reyna-Portugisisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Sage/Sage-Deutsch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Sage/Sage-Englisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Sage/Sage-Französisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Sage/Sage-Japanisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Sage/Sage-Portugisisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Sova/Sova-Deutsch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Sova/Sova-Englisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Sova/Sova-Französisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Sova/Sova-Japanisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Sova/Sova-Portugisisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Viper/Viper-Deutsch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Viper/Viper-Englisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Viper/Viper-Französisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Viper/Viper-Japanisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/images/agent/Viper/Viper-Portugisisch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_sans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/properties.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/valorant_font.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/help.js" beforeDir="false" afterPath="$PROJECT_DIR$/commands/help.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +120,10 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shivv\Nextcloud\Documents\GitHub\ValPal" />
+      <recent name="C:\Users\shivv\Nextcloud\Documents\GitHub\ValPal\commands" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\shivv\Nextcloud\Documents\GitHub\ValPal" />
       <recent name="C:\Users\shivv\Nextcloud\Documents\GitHub\ValPal\commands" />
@@ -95,7 +160,8 @@
       <workItem from="1595468085122" duration="769000" />
       <workItem from="1595472066848" duration="1193000" />
       <workItem from="1595524396782" duration="178000" />
-      <workItem from="1595524591604" duration="4325000" />
+      <workItem from="1595524591604" duration="4409000" />
+      <workItem from="1595539163919" duration="2415000" />
     </task>
     <task id="LOCAL-00001" summary="fixed usage for apitest">
       <created>1595435003957</created>
@@ -160,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595530859123</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added server only to help command">
+      <created>1595531088196</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1595531088196</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +249,8 @@
     <MESSAGE value="riot verification" />
     <MESSAGE value="added role updater" />
     <MESSAGE value="fixed role command" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed role command" />
+    <MESSAGE value="added server only to help command" />
+    <option name="LAST_COMMIT_MESSAGE" value="added server only to help command" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -188,30 +262,30 @@
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
     <state x="1578" y="-742" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595524529630" />
-    <state x="1322" y="-1070" width="753" height="1021" key="CommitChangelistDialog2" timestamp="1595530858681">
+    <state x="1432" y="-1080" width="753" height="1021" key="CommitChangelistDialog2" timestamp="1595531087725">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="1322" y="-1070" width="753" height="1021" key="CommitChangelistDialog2/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595530858681" />
+    <state x="1432" y="-1080" width="753" height="1021" key="CommitChangelistDialog2/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595531087725" />
     <state x="1331" y="-847" key="FileChooserDialogImpl" timestamp="1595397946683">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
     <state x="1331" y="-847" key="FileChooserDialogImpl/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595397946683" />
-    <state width="1899" height="418" key="GridCell.Tab.0.bottom" timestamp="1595530629477">
+    <state width="1883" height="174" key="GridCell.Tab.0.bottom" timestamp="1595541263133">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1899" height="418" key="GridCell.Tab.0.bottom/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595530629477" />
-    <state width="1899" height="418" key="GridCell.Tab.0.center" timestamp="1595530629477">
+    <state width="1883" height="174" key="GridCell.Tab.0.bottom/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595541263133" />
+    <state width="1883" height="174" key="GridCell.Tab.0.center" timestamp="1595541263133">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1899" height="418" key="GridCell.Tab.0.center/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595530629477" />
-    <state width="1899" height="418" key="GridCell.Tab.0.left" timestamp="1595530629477">
+    <state width="1883" height="174" key="GridCell.Tab.0.center/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595541263133" />
+    <state width="1883" height="174" key="GridCell.Tab.0.left" timestamp="1595541263133">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1899" height="418" key="GridCell.Tab.0.left/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595530629477" />
-    <state width="1899" height="418" key="GridCell.Tab.0.right" timestamp="1595530629477">
+    <state width="1883" height="174" key="GridCell.Tab.0.left/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595541263133" />
+    <state width="1883" height="174" key="GridCell.Tab.0.right" timestamp="1595541263133">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1899" height="418" key="GridCell.Tab.0.right/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595530629477" />
+    <state width="1883" height="174" key="GridCell.Tab.0.right/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595541263133" />
     <state width="1899" height="356" key="GridCell.Tab.1.bottom" timestamp="1595443562030">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
@@ -272,10 +346,14 @@
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
     <state x="1073" y="-1080" key="SettingsEditor/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595395395690" />
-    <state x="1405" y="-811" key="Vcs.Push.Dialog.v2" timestamp="1595530860508">
+    <state x="1405" y="-811" key="Vcs.Push.Dialog.v2" timestamp="1595531089381">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="1405" y="-811" key="Vcs.Push.Dialog.v2/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595530860508" />
+    <state x="1405" y="-811" key="Vcs.Push.Dialog.v2/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595531089381" />
+    <state x="1521" y="-965" width="584" height="849" key="find.popup" timestamp="1595540023292">
+      <screen x="853" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="1521" y="-965" width="584" height="849" key="find.popup/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595540023292" />
     <state x="1530" y="-732" key="jetbrains.nodejs.interpreters-dialog" timestamp="1595397924376">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>

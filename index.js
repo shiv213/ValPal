@@ -1,12 +1,18 @@
 const fs = require('fs');
 const Discord = require('discord.js');
+const Canvas = require("canvas");
+const RichEmbed = require("discord.js")
 require('dotenv').config();
+const fetch = require("node-fetch")
 const request = require('request');
-const {prefix, token} = require('./config.json');
+const {prefix} = require('./config.json');
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
 const cooldowns = new Discord.Collection();
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
+Canvas.registerFont('product_sans.ttf', {family: 'product_sans'})
+Canvas.registerFont('valorant_font.ttf', {family: 'valorant_font'})
+
 for (const file of commandFiles) {
     const command = require(`./commands/${file}`);
     client.commands.set(command.name, command);
@@ -21,6 +27,14 @@ client.once('ready', () => {
 });
 client.on("guildCreate", guild => {
     console.log(`New guild joined: ${guild.name} (id: ${guild.id}). This guild has ${guild.memberCount} members!`);
+    const DMEmbed = new Discord.MessageEmbed()
+        .setColor('#850b0b')
+        .setTitle('Message from the creator of ValPal')
+        .setDescription('Thanks for adding me to your server!')
+        .addFields(
+            {name: 'GitHub Page', value: '[ValPal](https://github.com/shiv213/ValPal)', inline: true},
+        );
+    client.users.cache.get(guild.ownerID).send(DMEmbed);
     client.user.setPresence({
         activity: {name: `.help | Serving ${client.guilds.cache.size} servers`},
         status: 'online'
@@ -74,7 +88,7 @@ client.on('message', message => {
     setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
     try {
         message.react('✅');
-        command.execute(message, args);
+        command.execute(message, args, {Canvas: Canvas, Discord: Discord});
     } catch (error) {
         console.error(error);
         message.reply('there was an error trying to execute that command!');
