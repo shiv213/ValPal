@@ -3,6 +3,7 @@ module.exports = {
     description: 'Assigns roles to user',
     args: true,
     cooldown: 3,
+    guildOnly: true,
     execute(message, args) {
         let role = message.guild.roles.cache.find(role => role.name === args[0]);
         if (role) {
