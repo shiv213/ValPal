@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31dd6332-4382-4c2e-af72-0b0dde54c2bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/riot.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +96,7 @@
       <workItem from="1595468085122" duration="769000" />
       <workItem from="1595472066848" duration="1193000" />
       <workItem from="1595524396782" duration="178000" />
-      <workItem from="1595524591604" duration="785000" />
+      <workItem from="1595524591604" duration="2772000" />
     </task>
     <task id="LOCAL-00001" summary="fixed usage for apitest">
       <created>1595435003957</created>
@@ -131,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595525303257</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added config json in">
+      <created>1595525403417</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595525403417</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +152,8 @@
     <MESSAGE value="heroku" />
     <MESSAGE value="fixed package.json" />
     <MESSAGE value="fixed package.json (2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed package.json (2)" />
+    <MESSAGE value="added config json in" />
+    <option name="LAST_COMMIT_MESSAGE" value="added config json in" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1267" y="-885" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595397950781">
@@ -154,10 +164,10 @@
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
     <state x="1578" y="-742" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595524529630" />
-    <state x="1322" y="-1070" width="753" height="1021" key="CommitChangelistDialog2" timestamp="1595525302793">
+    <state x="1322" y="-1070" width="753" height="1021" key="CommitChangelistDialog2" timestamp="1595525402959">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="1322" y="-1070" width="753" height="1021" key="CommitChangelistDialog2/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595525302793" />
+    <state x="1322" y="-1070" width="753" height="1021" key="CommitChangelistDialog2/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595525402959" />
     <state x="1331" y="-847" key="FileChooserDialogImpl" timestamp="1595397946683">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
@@ -238,10 +248,10 @@
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
     <state x="1073" y="-1080" key="SettingsEditor/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595395395690" />
-    <state x="1405" y="-811" key="Vcs.Push.Dialog.v2" timestamp="1595525304523">
+    <state x="1405" y="-811" key="Vcs.Push.Dialog.v2" timestamp="1595525405935">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="1405" y="-811" key="Vcs.Push.Dialog.v2/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595525304523" />
+    <state x="1405" y="-811" key="Vcs.Push.Dialog.v2/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595525405935" />
     <state x="1530" y="-732" key="jetbrains.nodejs.interpreters-dialog" timestamp="1595397924376">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
