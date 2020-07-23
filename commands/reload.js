@@ -3,7 +3,7 @@ module.exports = {
     description: 'Reloads a command',
     args: true,
     execute(message, args) {
-        if (!(message.guild.roles.cache.find(role => role.name === "Administrator")))
+        if (!(message.guild.roles.cache.some(role => role.name === "Administrator")))
             return message.reply("Sorry, you don't have permissions to use this!");
         const commandName = args[0].toLowerCase();
         const command = message.client.commands.get(commandName)

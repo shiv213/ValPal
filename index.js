@@ -73,6 +73,7 @@ client.on('message', message => {
     timestamps.set(message.author.id, now);
     setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
     try {
+        message.react('✅');
         command.execute(message, args);
     } catch (error) {
         console.error(error);
@@ -81,5 +82,5 @@ client.on('message', message => {
 
 });
 
-// client.login(process.env.TOKEN).catch(err => console.log(err));
-client.login(token).catch(err => console.log(err));
+client.login(process.env.TOKEN).catch(err => console.log(err));
+// client.login(token).catch(err => console.log(err));
