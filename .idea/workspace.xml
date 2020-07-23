@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="31dd6332-4382-4c2e-af72-0b0dde54c2bb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.17.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -95,7 +95,7 @@
       <workItem from="1595468085122" duration="769000" />
       <workItem from="1595472066848" duration="1193000" />
       <workItem from="1595524396782" duration="178000" />
-      <workItem from="1595524591604" duration="262000" />
+      <workItem from="1595524591604" duration="692000" />
     </task>
     <task id="LOCAL-00001" summary="fixed usage for apitest">
       <created>1595435003957</created>
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595524650125</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixed package.json">
+      <created>1595524893674</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595524893674</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +135,8 @@
     <MESSAGE value="fixed usage for apitest" />
     <MESSAGE value="added role command" />
     <MESSAGE value="heroku" />
-    <option name="LAST_COMMIT_MESSAGE" value="heroku" />
+    <MESSAGE value="fixed package.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed package.json" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1267" y="-885" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595397950781">
@@ -139,10 +147,10 @@
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
     <state x="1578" y="-742" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595524529630" />
-    <state x="1322" y="-1070" width="753" height="1021" key="CommitChangelistDialog2" timestamp="1595524649468">
+    <state x="1322" y="-1070" width="753" height="1021" key="CommitChangelistDialog2" timestamp="1595524893193">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="1322" y="-1070" width="753" height="1021" key="CommitChangelistDialog2/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595524649468" />
+    <state x="1322" y="-1070" width="753" height="1021" key="CommitChangelistDialog2/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595524893193" />
     <state x="1331" y="-847" key="FileChooserDialogImpl" timestamp="1595397946683">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
@@ -211,14 +219,22 @@
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
     <state width="1899" height="356" key="GridCell.Tab.3.right/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595443562031" />
+    <state x="963" y="-1060" width="1678" height="972" key="MergeDialog" timestamp="1595524948880">
+      <screen x="853" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="963" y="-1060" width="1678" height="972" key="MergeDialog/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595524948880" />
+    <state x="853" y="-1080" key="MultipleFileMergeDialog" timestamp="1595524958423">
+      <screen x="853" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="853" y="-1080" key="MultipleFileMergeDialog/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595524958423" />
     <state x="1073" y="-1080" key="SettingsEditor" timestamp="1595395395690">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
     <state x="1073" y="-1080" key="SettingsEditor/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595395395690" />
-    <state x="1405" y="-811" key="Vcs.Push.Dialog.v2" timestamp="1595524655300">
+    <state x="1405" y="-811" key="Vcs.Push.Dialog.v2" timestamp="1595524977820">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="1405" y="-811" key="Vcs.Push.Dialog.v2/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595524655300" />
+    <state x="1405" y="-811" key="Vcs.Push.Dialog.v2/0.0.1536.824/853.-1080.1920.1080@853.-1080.1920.1080" timestamp="1595524977820" />
     <state x="1530" y="-732" key="jetbrains.nodejs.interpreters-dialog" timestamp="1595397924376">
       <screen x="853" y="-1080" width="1920" height="1080" />
     </state>
