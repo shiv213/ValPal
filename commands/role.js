@@ -9,6 +9,8 @@ module.exports = {
         if (role) {
             message.member.roles.add(role);
             message.reply(`The **${role.name}** role has been given to you.`)
+        } else {
+            message.reply(`The **${role.name}** role does not exist.`)
         }
 
     },
